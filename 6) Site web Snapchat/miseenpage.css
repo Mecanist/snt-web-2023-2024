@@ -1,0 +1,34 @@
+nav{
+	float : left;
+	width : 250px;
+	border :1px solid black;
+}
+
+section {
+	margin-left:270px;
+	border : 1px solid black;
+}
+
+body {
+    background-color: #fbfba3 ; /* Le fond de la page */
+    color: black; /* Le texte de la page sera blanc */
+}
+
+h1 {
+  font-size: 30px; /* Taille de l'écriture */
+  font-family: Courier New, monospace; /* Police */
+  color: #050505; /* Couleur de l'écriture */
+  margin : 10px  80px ;   /* Faire une marge */
+}
+
+h2 {
+ font-size: 20px; /* Taille de l'écriture */
+  color: #050505; /* Couleur de l'écriture */
+  margin : 10px  100px ;  /* Faire une marge */
+  
+}
+h3 {
+ font-size: 18px; /* Taille de l'écriture */	
+  color: #050505; /* Couleur de l'écriture */
+  margin : 10px  100px ; /* Faire une marge */
+}

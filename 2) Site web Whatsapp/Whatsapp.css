@@ -1,0 +1,46 @@
+html{
+	background-color:rgba(245,245,220);
+	font-family: Comic Sans MS;
+	text-align: justify;
+	width: 75%;
+	margin-left: 12%
+	}
+
+em{
+	text-decoration: underline;
+	color: #16B156
+	}
+nav{
+	margin-left:-2%
+}
+	
+	
+header{ 
+		text-decoration: underline;
+		text-align: left;
+		color: #6f5c2e
+}/*#16B156*/
+
+table{
+	text-align: left;
+	color: green;
+	}
+
+
+td{
+	text-align: 25%
+}
+
+caption{
+	border: 1px green solid;
+	box-shadow: 1px 2px 1px green
+}
+
+p{
+text-align:left
+}
+footer{
+	margin-left: 25%;
+	margin-right: 25%;
+	width:50%
+}

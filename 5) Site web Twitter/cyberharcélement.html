@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lien du cyberharcèlement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; 
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px; 
+            border-radius: 10px; 
+            background-color: #fff; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        h1, h2, h3 {
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+        }
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 28px;
+            margin-top: 20px;
+        }
+        h3 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        .link {
+            font-size: 24px;
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease; 
+        }
+        .link:hover {
+            color: #0056b3; 
+        }
+        .ascenseur {
+            height: 300px;
+            overflow-y: scroll;
+            border: 1px solid #000;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .navigation-buttons {
+            margin-top: 20px;
+        }
+        .navigation-buttons button {
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="active">
+                <a href="index.html">Accueil</a>
+            </li>
+            <li>
+                <a href="Blog (2).html"
+             <li>
+                <a href="à propos de nous.html">À propos de nous</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Lien du cyberharcèlement</h1>
+        <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029336939/2023-11-29" class="link">Code Pénal - Cyberharcèlement</a>
+        <div class="ascenseur">
+            <h1>Définition du harcèlement</h1>
+            <p>Le harcèlement est une forme de violence répétée qui peut être verbale, physique ou psychologique. Il a pour but de nuire à une personne ou à un groupe de personnes en leur infligeant des souffrances et en les isolant.</p>
+
+            <h1>Pourquoi peut-on dire que l'utilisation des multimédias facilite et accentue le phénomène de harcèlement ?</h1>
+            <p>L'utilisation des multimédias, comme les réseaux sociaux et les messageries instantanées, facilite le harcèlement en permettant aux harceleurs de cibler leurs victimes de manière anonyme et continue. Les contenus humiliants peuvent être partagés et diffusés rapidement à un large public, rendant le phénomène de harcèlement plus intense et omniprésent.</p>
+
+            <h2>A-t-on le droit de prendre une photo d'un camarade sans son accord ?</h2>
+            <p>Non, il n'est pas légal de prendre une photo d'un camarade sans son accord. En France, le droit à l'image protège chaque individu, et la prise et la diffusion de photos sans consentement peuvent entraîner des sanctions juridiques.</p>
+
+            <h3>Quels sont les risques encourus par les harceleurs ?</h3>
+            <p>Les harceleurs encourent plusieurs risques, y compris des sanctions disciplinaires au sein de leur établissement scolaire ou professionnel, des amendes, et même des peines de prison. Le harcèlement est un délit puni par la loi et les victimes peuvent porter plainte pour obtenir réparation.</p>
+        </div>
+        <div class="navigation-buttons">
+            <button onclick="scrollToTop()">Remonter en haut</button>
+            <button onclick="scrollToBottom()">Descendre en bas</button>
+        </div>
+    </div>
+    <script>
+        function scrollToTop() {
+            document.querySelector('.ascenseur').scrollTop = 0;
+        }
+
+        function scrollToBottom() {
+            const ascenseur = document.querySelector('.ascenseur');
+            ascenseur.scrollTop = ascenseur.scrollHeight;
+        }
+    </script>
+</body>
+</html>

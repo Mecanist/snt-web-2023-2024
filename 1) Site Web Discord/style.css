@@ -1,0 +1,153 @@
+p{
+
+font-family: cambria;
+
+width: 75%
+}
+
+
+
+header
+{<
+color: white;	
+}
+
+
+
+
+a
+
+{
+	
+	
+	color: white;
+}
+
+
+
+
+
+h1{
+text-align: left;
+font-family: cambria;
+color: rgba(72, 85, 255, 1);
+
+}
+
+
+
+h2
+{
+
+font-family: cambria;
+
+}
+
+
+
+
+
+
+
+h3{
+
+
+font-family: cambria;
+color: white;
+
+
+float: left;
+	text-align: center;
+	width: 96.3%;
+	/* largeur */
+	
+	
+	border: 4px solid rgba(72, 85, 255, 1);
+	
+	
+	padding: 1.8%;
+/* marge intérieur	 */
+}
+
+h4{
+	font-family: cambria;
+	
+
+}
+
+
+
+h5{
+
+font-family: cambria;
+
+}
+
+
+
+
+
+
+body
+{
+	
+	background-color: rgba(38, 35, 37, 1);
+	/* image de fond */
+	font-family: cambria;
+	
+}
+
+section
+{
+	font-family: cambria;
+	color: white;
+	text-align: left;
+	float: left;
+}
+
+
+
+	
+	
+}
+
+
+	
+ol
+{
+	color : yellow;
+	
+}
+
+
+nav
+{
+	float: left;
+	text-align: center;
+	width: 18%;
+	
+	border: 10px solid rgba(72, 85, 255, 1);
+	margin: 2%;
+/* Marge exterieure */
+	
+	
+	padding: 2.5%;
+/* Marge intérieure */
+	background-image: url("images/videoframe6997.png");
+}
+
+
+
+
+footer
+{
+	float: left;
+	text-align: center;
+	width: 94.9%;
+	/* largeur */
+	
+	border: 5px solid yellow;
+	
+	padding: 2.5%;
+/* Marge intérieure */
+}

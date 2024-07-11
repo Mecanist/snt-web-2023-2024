@@ -1,0 +1,29 @@
+/* C-C S et C C 2GT14 */
+
+/* Configuration de la mise en page pour la page html entière */
+html { /* type de police */
+	font-family:Calibri;
+	/* largeur de la marge : médium */
+	margin:1em;
+	/* taille de la police */
+	font-size:16px }
+
+/* Configuration de la mise en page pour les balises <h1> */
+h1 { /* texte centré */
+	text-align:center;
+	/* couleur de fond rouge */
+	background-color:red;
+	/* couleur de l'écriture en blanc */
+	color:white; }
+	
+/* Configuration de la mise en page pour les balises <h4> */
+h4 { /* texte en italique */ 
+	font-style:italic;
+	/* épaisseur de caractère de niveau 1 (juste au-dessus de "normal") */
+	font-weight: bold }
+	
+/* Configuration de la mise en page pour les balises <em> */
+em { /* texte en italique */ 
+	font-style:italic;
+	/* épaisseur de caractère (la plus fine) */
+	font-weight: lighter }

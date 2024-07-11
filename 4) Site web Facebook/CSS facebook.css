@@ -1,0 +1,48 @@
+body 
+{
+        font-family:arial;
+        background-color: rgb(173,216,230);
+		font-size: 110%
+}
+
+header,footer 
+{
+        display: flex;
+        justify-content:center;
+        background-color: rgb(42, 42, 144);
+        color: white;
+        font-weight: bold;
+		text-align: center;
+}
+
+footer 
+{
+        padding: 10px;
+}
+div,h3, h4, h5,p,ol
+		{
+		font-size: large; 
+		color: rgb(42, 42, 144);
+        text-align:center;
+		margin-left: 10%;
+		margin-right: 10%;
+        }
+h1
+{ 
+		text-align:center;
+		font-family: arial black; 
+	}
+
+h2
+{
+		text-decoration: underline; 
+		text-align:center;
+		font-variant: small-caps;
+		color: rgb(42, 42, 144);
+}
+
+ul 
+{
+        text-align: center;
+        list-style-type: none;
+        }
